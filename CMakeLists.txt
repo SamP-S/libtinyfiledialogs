@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD          17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS        OFF)
 
-add_library(libtinyfiledialogs STATIC
-    ./tinyfiledialogs.c
-    ./tinyfiledialogs.h
+add_library(tinyfiledialogs STATIC
+    "./tinyfiledialogs.c"
+    "./tinyfiledialogs.h"
 )
-target_include_directories(libtinyfiledialogs PUBLIC ./)
+target_include_directories(tinyfiledialogs PUBLIC "./")
